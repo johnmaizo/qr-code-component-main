@@ -1,0 +1,109 @@
+:root {
+    --color_white: hsl(0, 0%, 100%);
+    --color_gray: hsl(212, 45%, 89%);
+    --color_dark_blue: hsl(218, 44%, 22%);
+    --color_grayish_blue: hsl(220, 15%, 55%);
+
+    --fw_regular: 400;
+    --fw_bold: 700;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ! Start here */
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--color_gray);
+    display: grid;
+    place-content: center;
+}
+
+.qr_background {
+    max-width: 15.9em;
+    background-color:  var(--color_white);
+    padding: 0.8em;
+    border-radius: 10px;
+}
+
+.qr_background img {
+    border-radius: 10px;
+}
+
+.text_area {
+    --block_space: 16px;
+    --fs_small: 13.5px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.text_area h1 {
+    color: var(--color_dark_blue);
+    font-size: 1.2rem;
+    font-weight: var(--fw_bold);
+    margin-block-start: var(--block_space);
+    margin-block-end: 10px;
+}
+
+.text_area p {
+    color: var(--color_grayish_blue);
+    font-size: var(--fs_small);
+    padding-block-end: 10px;
+}
