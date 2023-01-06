@@ -4,7 +4,7 @@
 
   <img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" alt="frontendmentor" width="80">
 
-  <h2 align="center">URL shortening API landing page</h2>
+  <h2 align="center">QR code component</h2>
   <p align="center">
     <a href="https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G/hub"><strong>Frontend Mentor Challenge</strong></a>
     <br />
@@ -41,7 +41,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -70,7 +69,6 @@ Users should be able to:
 - CSS
 - [VSCode](https://code.visualstudio.com/) - Visual Studio Code
 
-### Useful resources
 
 ## Author
 
