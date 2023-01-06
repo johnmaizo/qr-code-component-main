@@ -69,3 +69,5 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@johnmaizo](https://www.frontendmentor.io/profile/johnmaizo)
+- Twitter - [@johnmaizo](https://twitter.com/johnmaizo)
+- Website - [John Robert Maizo](https://johnmaizo.github.io/personal_website/)
