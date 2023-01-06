@@ -77,19 +77,21 @@ body {
 }
 
 .qr_background {
+    --size_10: 0.625em;
+
     max-width: 15.9em;
     background-color:  var(--color_white);
     padding: 0.8em;
-    border-radius: 10px;
+    border-radius: var(--size_10);
 }
 
 .qr_background img {
-    border-radius: 10px;
+    border-radius: var(--size_10);
 }
 
 .text_area {
-    --block_space: 16px;
-    --fs_small: 13.5px;
+    --block_space: 1rem;
+    --fs_small: 0.844rem;
     text-align: center;
     line-height: 1.2;
 }
@@ -99,11 +101,20 @@ body {
     font-size: 1.2rem;
     font-weight: var(--fw_bold);
     margin-block-start: var(--block_space);
-    margin-block-end: 10px;
+    margin-block-end: var(--size_10);
 }
 
 .text_area p {
     color: var(--color_grayish_blue);
     font-size: var(--fs_small);
-    padding-block-end: 10px;
+    padding-block-end: var(--size_10);
+}
+
+footer {
+  font-family: none;
+  
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
