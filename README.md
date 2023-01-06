@@ -9,11 +9,7 @@
     <a href="https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G/hub"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
-    <a href="https://url-shortening-api-landing-page-hdez.vercel.app/">View Demo</a>
-    ·
-    <a href="https://github.com/MelvinAguilar/url-shortening-api-landing-page/issues" target="_blank">Report Bug</a>
-    ·
-    <a href="https://github.com/MelvinAguilar/url-shortening-api-landing-page/issues" target="_blank">Request Feature</a>
+    <a href="https://stalwart-brigadeiros-003ffe.netlify.app/">View Demo</a>
   </p>
 </div>
 
