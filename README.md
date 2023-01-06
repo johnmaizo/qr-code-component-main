@@ -6,7 +6,7 @@
 
   <h2 align="center">QR code component</h2>
   <p align="center">
-    <a href="https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G/hub"><strong>Frontend Mentor Challenge</strong></a>
+    <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/hub"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
     <a href="https://stalwart-brigadeiros-003ffe.netlify.app/">View Demo</a>
